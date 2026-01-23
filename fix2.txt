@@ -1,0 +1,41 @@
+git init git config --global user.name "Kathrin Trinh"
+git config --global user.email "trinhkathrin@hotmail.com"
+git checkout -b main git 
+add README.md
+git commit -m "Initial commit"
+git checkout -b feature1 
+git add README.md
+git commit -m "Replace moose with mouse and add dog" 
+git checkout main
+git add README.md
+git commit -m "Replace moose with mammoth"
+git merge feature1
+git tag lightweight extinct
+git checkout main~1
+git checkout -b feature2
+git checkout main
+git add README.md
+git commit -m "Capitalize all animals"
+git checkout feature2
+git add fix1.txt
+git commit -m "Add fix1.txt"
+git add fix2.txt
+git commit -m "Add fix2.txt"
+git checkout main
+git cherry-pick fix2 koden
+git checkout -b cleanup_test
+git add README.md
+git commit -m "Add bird"
+git add README.md
+git commit -m "Add fish"
+git add README.md
+git commit-m "Add snake"
+git reset --soft HEAD~3
+git commit -m "Added several animals"
+echo turtle >> README.md
+git add README.md
+git commit -m "Addid turtle"
+git commit --amend -m "Added turtle"
+git add fix2.txt
+git commit -m "Add fix2.txt with git commands"
+
