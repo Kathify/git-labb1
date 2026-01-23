@@ -4,6 +4,4 @@ Cat
 bird
 fish
 snake
-bird
-fish
-snake
+turtle
